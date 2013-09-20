@@ -17,7 +17,7 @@ apt-get install libssh2-php
 ## How to use
 
 ### SSH protocol
-```
+```php
 $remoteServer = new \RemoteServer\RemoteServer(
     new \RemoteServer\Ssh()
 );
@@ -28,7 +28,7 @@ var_dump($remoteServer->getResult());
 var_dump($remoteServer->getArray());
 ```
 ### Telnet protocol
-```
+```php
 $remoteServer = new \RemoteServer\RemoteServer(
     new \RemoteServer\Telnet()
 );
@@ -42,4 +42,5 @@ var_dump($remoteServer->getArray());
 --
 ## Doubts
 Email: tiago.butzke@gmail.com
+
 Twitter: [@tiagobutzke](http://twitter.com/tiagobutzke "@tiagobutzke")
