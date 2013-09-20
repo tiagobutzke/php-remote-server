@@ -10,6 +10,7 @@ Library to connect and manage remote servers via PHP.
 ** Ubuntu Instalation: 
 ```shell
 apt-get install libssh2-php
+
 /etc/inid.d/apache2 restart
 ```
 --
