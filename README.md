@@ -14,6 +14,14 @@ Library to connect and manage remote servers via PHP.
 ```
 --
 
+## Install via Composer
+```sh
+# add in composer.json
+"require-dev": {
+    "tiagobutzke/php-remote-server": "1.0.*"
+}
+```
+
 ## How to use
 
 ### SSH protocol
